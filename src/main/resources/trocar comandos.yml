@@ -1,0 +1,22 @@
+# Voce pode configurar um prefixo para as mensagens na [config.yml]
+# Voce pode colocar quantos comandos quiser
+
+Trocar comandos:
+  1:
+    Comando: '/warp mina'
+    Novo comando: '/mina'
+    Adicionar permissao: true
+    Permissao: 'strocarcomandos.mina.usar'
+    Sem permissao: '&cVocê precisa ter a permissão "{permission}", para utilizar o comando {command}!'
+    Sons:
+      Usou: 'ORB_PICKUP'
+      Sem permissao: 'NOTE_PLING'
+  2:
+    Comando: '/cash'
+    Novo comando: '/gemas'
+    Adicionar permissao: false
+    Permissao: 'strocarcomandos.gemas.usar'
+    Sem permissao: '&cVocê precisa ter a permissão "{permission}", para utilizar o comando {command}!'
+    Sons:
+      Usou: 'LEVEL_UP'
+      Sem permissao: 'VILLAGER_NO'
